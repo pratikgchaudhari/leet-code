@@ -40,7 +40,7 @@ public class SentenceSimilarity {
         System.out.println(sentence2.length);
 
         similarPairs.stream().spliterator().forEachRemaining(pair -> {
-            String.join(",", pair.get(0), pair.get(1))
+            String.join(",", pair.get(0), pair.get(1));
         });
 
         if (sentence1.length != sentence2.length)
