@@ -1,8 +1,7 @@
-import java.io.BufferedReader;
+package com.leetcode.countingelements;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class CountingElements {
 
