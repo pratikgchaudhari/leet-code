@@ -10,7 +10,7 @@ public class MovingAverage {
 
     public MovingAverage(int size) {
         capacity = size;
-        elements = new ArrayList<>(3);
+        elements = new ArrayList<>(size);
     }
 
     public double next(int val) {
